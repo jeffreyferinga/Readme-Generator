@@ -95,7 +95,7 @@ inquirer
         },
         {
             type: `input`,
-            message: `Type in your deployed applications link`,
+            message: `Type in your deployed applications link (must be a hyperlink)`,
             name: `deployed`,
         },
         {
