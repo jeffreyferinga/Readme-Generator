@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 // TODO: Create an array of questions for user input
 const readmegenerate = ({Name, description, howtoinstall, usage, license, contribute, test, github, email, deployed}) =>
-`#Title:  **${Name}**
+`# Title:  **${Name}**
 [![License](https://img.shields.io/badge/License-${license}-green)](https://opensource.org/licenses/${license})
 
 ## *Description*
